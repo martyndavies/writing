@@ -8,7 +8,7 @@ Being able to search through uploaded content is always useful, but the quality 
 
 This is fine, but it’s typically an extra step to completion that delays the user experience, or the input from the user is so random (“lol doggos 😆”) that it isn’t going to make for very useful search data.
 
-Thankfully, it’s 2018 and technology has progressed enough that there are ways to ease this situation. So, I set out to create a simple image search app that uses [Algolia’s](https://www.algolia.com) powerful indexing and search experience libraries with a selection of animal photos (just because) that are automatically classified by Google Cloud’s [Vision API]([Vision API - Image Content Analysis  |  Google Cloud](https://cloud.google.com/vision/)).
+Thankfully, it’s 2018 and technology has progressed enough that there are ways to ease this situation. So, I set out to create a simple image search app that uses [Algolia’s](https://www.algolia.com) powerful indexing and search experience libraries with a selection of animal photos (just because) that are automatically classified by Google Cloud’s [Vision API](https://cloud.google.com/vision/).
 
 ![What the app looks like](https://cl.ly/2k1m0i3R2F1L/Screen%20Recording%202018-03-26%20at%2005.24%20pm.gif)
 
@@ -259,6 +259,6 @@ Through these examples you’ve seen how to do the following:
 * Store relevant information about this image in Algolia and make it searchable
 * How to add a search interface and search results to your app quickly using InstantSearch.js
 
-If you take a look at the [full source code of the example app](https://github.com/martyndavies/cloud-vision-algolia) you’ll also get to see how the image uploading is handled using JavaScript and a library for NodeJS called [Multer]([GitHub - expressjs/multer: Node.js middleware for handling `multipart/form-data`.](https://github.com/expressjs/multer)). You’ll also see how to work with some of the dynamic components that [Materialize CSS]([Documentation - Materialize](http://materializecss.com/)) offers, such as modals and notifications.
+If you take a look at the [full source code of the example app](https://github.com/martyndavies/cloud-vision-algolia) you’ll also get to see how the image uploading is handled using JavaScript and a library for NodeJS called [Multer](https://github.com/expressjs/multer). You’ll also see how to work with some of the dynamic components that [Materialize CSS](http://materializecss.com/) offers, such as modals and notifications.
 
-If you have any questions about any of this then feel free to reach out to me via [GitHub]([GitHub - martyndavies/cloud-vision-algolia: A simple image uploader and gallery that automatically classifies images using Google’s Cloud Vision API and makes them searchable using Algolia](https://github.com/martyndavies/cloud-vision-algolia)), or via [Twitter](https://twitter.com/martynd).
+If you have any questions about any of this then feel free to reach out to me via [GitHub](https://github.com/martyndavies/cloud-vision-algolia), or via [Twitter](https://twitter.com/martynd).
